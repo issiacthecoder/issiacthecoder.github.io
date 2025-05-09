@@ -1,0 +1,9 @@
+/*This is a CSS selector */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #006400;
+}
