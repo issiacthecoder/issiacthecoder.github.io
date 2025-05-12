@@ -4,6 +4,31 @@ h1 {
     color: white;
 }
 
+h3 {
+    text-align: center;
+    width: 25%;
+    color: white;
+    border: 1px solid white;
+}
+
 body {
     background-color: #006400;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+pre {
+    color: white;
+    text-align: left;
+}
+
+h2.title {
+    display: inline-block;
+    border: 1px solid white;
+    width: 25%;
+    color: white;
+    text-align: center;
 }
