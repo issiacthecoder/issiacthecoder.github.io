@@ -1,34 +1,41 @@
-/*This is a CSS selector */
-h1 {
-    text-align: center;
-    color: white;
+* {
+    font-style: "Poppins", sans-serif;
 }
 
-h3 {
-    text-align: center;
-    width: 25%;
-    color: white;
-    border: 1px solid white;
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #006400;
+  font-family: Arial, sans-serif;
 }
 
-p {
-    text-align: center;
-    color: white;
+/* Navbar container */
+.navbar {
+  background-color: #333;
+  padding: 1rem 2rem;
 }
 
-pre {
-    color: white;
-    text-align: left;
+/* Unordered list styling */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
 }
 
-h2.title {
-    display: inline-block;
-    border: 1px solid white;
-    width: 25%;
-    color: white;
-    text-align: center;
+/* Links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ff9900;
 }
